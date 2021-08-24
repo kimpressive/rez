@@ -1,5 +1,45 @@
 # Change Log
 
+## 2.94.0 (2021-08-17)
+[Source](https://github.com/nerdvegas/rez/tree/2.94.0) | [Diff](https://github.com/nerdvegas/rez/compare/2.93.3...2.94.0)
+
+**Merged pull requests:**
+
+- quoting fix [\#1115](https://github.com/nerdvegas/rez/pull/1115) ([nerdvegas](https://github.com/nerdvegas))
+
+**Closed issues:**
+
+- bug in command quoting [\#1114](https://github.com/nerdvegas/rez/issues/1114)
+
+## 2.93.3 (2021-08-05)
+[Source](https://github.com/nerdvegas/rez/tree/2.93.3) | [Diff](https://github.com/nerdvegas/rez/compare/2.93.2...2.93.3)
+
+**Merged pull requests:**
+
+- fixed always-0 exitcode in pytest-based selftest [\#1118](https://github.com/nerdvegas/rez/pull/1118) ([nerdvegas](https://github.com/nerdvegas))
+
+**Closed issues:**
+
+- failed tests in pytest-enabled rez-selftest are not getting picked up [\#1117](https://github.com/nerdvegas/rez/issues/1117)
+
+## 2.93.2 (2021-08-03)
+[Source](https://github.com/nerdvegas/rez/tree/2.93.2) | [Diff](https://github.com/nerdvegas/rez/compare/2.93.1...2.93.2)
+
+**Merged pull requests:**
+
+- Prevent alias (windows function) to store all arguments in one string instead of an array of strings [\#1101](https://github.com/nerdvegas/rez/pull/1101) ([aguiot](https://github.com/aguiot))
+
+## 2.93.1 (2021-08-03)
+[Source](https://github.com/nerdvegas/rez/tree/2.93.1) | [Diff](https://github.com/nerdvegas/rez/compare/2.93.0...2.93.1)
+
+**Merged pull requests:**
+
+- handling archived lib when scanning rezplugins (fix #1108) [\#1109](https://github.com/nerdvegas/rez/pull/1109) ([davidlatwe](https://github.com/davidlatwe))
+
+**Closed issues:**
+
+- PluginManager.rezplugins_module_paths breaks with zipped Python [\#1108](https://github.com/nerdvegas/rez/issues/1108)
+
 ## 2.93.0 (2021-07-13)
 [Source](https://github.com/nerdvegas/rez/tree/2.93.0) | [Diff](https://github.com/nerdvegas/rez/compare/2.92.0...2.93.0)
 
