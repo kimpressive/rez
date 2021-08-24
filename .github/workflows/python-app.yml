@@ -20,6 +20,15 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.9
-    - name: Install dependencies
+    - name: Install Rez
       run: |
         python ./install.py 
+    - name: Make Zip
+      run: |
+        cd /opt/rez 
+        zip archive.zip
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: archive.zip
