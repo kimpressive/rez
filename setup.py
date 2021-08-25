@@ -42,6 +42,7 @@ def find_files(pattern, path=None, root="rez"):
     return paths
 
 
+
 this_directory = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(this_directory, 'README.md')) as f:
     long_description = f.read()
